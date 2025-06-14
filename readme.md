@@ -1,4 +1,4 @@
-## [留下你对2024年度聊天报告的期待](https://github.com/LC044/WeChatMsg/issues/532)
+## 现已支持微信4.0，[点击查看详细设计文档](https://blog.lc044.love/post/13)
 
 <h1 align="center">我的数据我做主</h1>
 <div align="center">
@@ -45,12 +45,29 @@
 </div>
 </blockquote>
 
+## 3.0 全面来袭
+
+### 全面适配微信4.0 [点击查看详细设计文档](https://blog.lc044.love/post/13)
+
+![数据库架构设计图](./doc/images/数据库架构设计图.png)
+
+  * 全新框架、重构底层逻辑
+  * 更低的内存占用
+  * 更快的导出速度
+
+### 全新的Ui
+  * 更简洁
+  * 更流畅
+  * 更友好
+  * 前后端彻底分离
+
+
 ## 🍉功能
 - [![](https://img.shields.io/badge/MemoTrace-官网-blue)](https://memotrace.cn/) 
 [![](https://img.shields.io/badge/GitHub-black.svg)](https://github.com/LC044/WeChatMsg)
 [![](https://img.shields.io/badge/Gitee-red.svg)](https://gitee.com/lc044/WeChatMsg)
 [![](https://img.shields.io/badge/Download-yellow.svg)](https://memotrace.cn/)
-- 🔒️🔑🔓️Windows本地微信数据库
+- 🔒️🔑🔓️Windows本地微信数据库（支持微信4.0）
 - 还原微信聊天界面
     - 🗨文本✅
     - 🏝图片✅
@@ -70,33 +87,23 @@
   - Word文档✅
 - 分析聊天数据，做成[可视化年报](https://memotrace.cn/demo.html)
 
-## 🥤效果
+## 2024年度报告
 
-<details>
+### 预览
 
-<img alt="聊天界面" src="./doc/images/chat.png"/>
+[个人年度报告在线预览](https://memotrace.cn/2024/single/)
 
-![](./doc/images/微信图片_20240130214341.jpg)
+[双人年度报告在线预览](https://memotrace.cn/2024Report/)
 
-![](./doc/images/why.gif)
+手机可以扫码观看
 
-![](./doc/images/病假.gif)
+<img src="/doc/images/qrcode0.png" height="300px"/>
 
-![image-20230520235351749](./doc/images/20231227211149.png)
+![](/doc/images/demo1.gif)
 
-![image-20230520235351749](./doc/images/20231227211215.png)
+### 源码地址
 
-![image-20230520235351749](./doc/images/20231227211228.png)
-
-![image-20230520235400772](./doc/images/20231227211240.png)
-
-![image-20230520235409112](./doc/images/20231227211250.png)
-
-![image-20230520235422128](./doc/images/image-20230520235338305.png)
-
-![image-20230520235431091](./doc/images/image-20230520235351749.png)
-
-</details>
+[https://github.com/LC044/AnnualReport](https://github.com/LC044/AnnualReport)
 
 # ⌛使用
 
@@ -108,6 +115,7 @@
 
 ## 源码运行
 
+[使用示例](./example/README.md)
 [详见开发者手册](./doc/开发者手册.md)
 
 [AI聊天](./MemoAI/readme.md)
@@ -191,7 +199,6 @@
 后续更新将会在公众号同步发布
 <div>
   <img src="https://blog.lc044.love/static/img/b8df8c594a4cabaa0a62025767a3cfd9.weixin.webp">
-  <img src="./doc/images/qq3.jpg" height="200">
 </div>
 
 ## AI交流
@@ -204,6 +211,6 @@
 
 # License
 
-WeChatMsg is licensed under [GPLv3](./LICENSE).
+WeChatMsg is licensed under [MIT](./LICENSE).
 
 Copyright © 2022-2024 by SiYuan.
